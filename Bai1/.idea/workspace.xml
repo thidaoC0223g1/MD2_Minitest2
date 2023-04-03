@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ad8301-b50c-4a0d-8555-7aac2171c0d3" name="Changes" comment="" />
+    <list default="true" id="b0ad8301-b50c-4a0d-8555-7aac2171c0d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book/FictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/book/FictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/book/TestBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/book/TestBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai2/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai2/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +88,7 @@
       <workItem from="1680407573869" duration="619000" />
       <workItem from="1680428861546" duration="1190000" />
       <workItem from="1680432178899" duration="8000" />
+      <workItem from="1680505786926" duration="5212000" />
     </task>
     <servers />
   </component>

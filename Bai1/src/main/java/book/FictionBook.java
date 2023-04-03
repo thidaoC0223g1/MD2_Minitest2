@@ -12,8 +12,9 @@ public class FictionBook extends Book{
     }
 
     public FictionBook(String bookCode, String name, double price, String author, String category) {
-        super(bookCode, name, price, author);
+        super(bookCode, name, price, author); //tạo đối tượng thuộc lớp cha trước do đó constructor super phải đứng đầu tiên .
         this.category = category;
+
     }
 
     public String getCategory() {

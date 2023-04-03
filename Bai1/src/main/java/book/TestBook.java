@@ -18,7 +18,6 @@ public class TestBook {
         list.add(new ProgrammingBook("5", "C#book", 4000,
                 "bale", "c#", "C#api"));
 
-
         list.add(new FictionBook("6", "tam cam", 1500,
                 "viet", "vien tuong 1"));
         list.add(new FictionBook("7", "thanh giong", 2500,
@@ -30,23 +29,28 @@ public class TestBook {
         list.add(new FictionBook("10", "ly thong", 5500,
                 "dinh", "vien tuong 1"));
 
-        double sum = 0;
-        int count=0;
-        int countprice=0;
+        checkAmountAndFind(list);
+    }
 
+    public static void checkAmountAndFind(ArrayList<Book> list) {
+        double sum = 0;
+        int count = 0;
+        int countprice = 0;
         for (Book x : list) {
             System.out.println(x + "\n");
             sum += x.getPrice();
-            if(x instanceof FictionBook && ((FictionBook) x).getCategory()=="vien tuong 1"){
-                count++;
+            if (x instanceof FictionBook) {
+                if (((FictionBook) x).getCategory().equals("vien tuong 1")) {
+                    count++;
+                }
             }
-            if(x.getPrice()<2000){
+            if (x.getPrice() < 2000) {
                 countprice++;
             }
         }
-        System.out.println("tong tien cua 10 cuon sach la "+sum);
-        System.out.println("so sach co category: vien tuong 1 = "+count);
-        System.out.println("so sach co gia duoi 2000 = "+countprice);
+        System.out.println("tong tien cua 10 cuon sach la " + sum);
+        System.out.println("so sach co category: vien tuong 1 = " + count);
+        System.out.println("so sach co gia duoi 2000 = " + countprice);
     }
 }
 
